@@ -1,0 +1,20 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.ArticleItem>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+    Layout = "Master.cshtml";
+}
+<div class="news">
+    <div class="col-xs-12">
+        <h1>@Umbraco.Field("articleTitle")</h1>
+    </div>
+    <div class="col-xs-12">
+        @{
+            var mediaItem = Umbraco.Media(Umbraco.Field("articleImage").ToHtmlString());
+            var file = mediaItem.UmbracoFile;
+        }
+        <img src="@file" />
+    </div>
+    <div class="col-xs-12">
+        @Umbraco.Field("articleContent")
+    </div>
+</div>

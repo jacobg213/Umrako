@@ -1,0 +1,208 @@
+﻿//----------------General---------------
+$light-gray: #C8C3B7;
+$lighter-gray: #ACA89C;
+$darker-gray: #8D816B;
+$dark-gray: #464136;
+$white: #F5F5EB;
+$green: #68991B;
+$darkred: #a94442;
+
+body {
+    background-color: $white;
+    color: $dark-gray;
+}
+
+
+.body {
+    min-height: calc(100vh - 128px);
+}
+
+
+
+.center-text {
+    text-align: center;
+
+    .img-responsive {
+        display: inline-block;
+    }
+}
+
+.right-text {
+    text-align: right;
+}
+
+.error, .validation-summary-errors {
+    color: $darkred;
+}
+
+.btn.btn-primary {
+    background-color: $light-gray;
+    color: $dark-gray;
+    border-color: $dark-gray;
+
+    &:hover, &:active, &:focus {
+        outline: 0;
+        background-color: $dark-gray;
+        color: $white;
+    }
+}
+
+.logged-in {
+    margin-top: 80px;
+}
+//----------------/General---------------
+
+//----------------Header---------------
+.navbar-default {
+    background-color: $light-gray;
+
+    .navbar-nav {
+        > li {
+            &.current, &:hover {
+                background-color: $dark-gray;
+
+                > a {
+                    color: $white;
+                }
+            }
+
+            > a {
+                text-align: right;
+                color: $dark-gray;
+            }
+        }
+    }
+}
+
+.navbar-collapse {
+    padding-right: 0;
+}
+
+.dropdown-menu {
+    min-width: 0px;
+    background-color: $light-gray;
+
+    > li {
+        > a {
+            padding: 3px 10px;
+            text-align: right;
+            color: $dark-gray;
+
+            &:hover, &:active, &:focus {
+                background-color: $dark-gray;
+                color: $white;
+            }
+        }
+    }
+}
+//---------------/Header----------------
+
+
+
+//------------Contact-Form--------------
+.contact-form {
+    margin-top: 30px;
+    min-height: 310px;
+
+    .form-horizontal .control-label {
+        text-align: right;
+        margin-bottom: 0;
+        padding-top: 7px;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    p {
+        line-height: 310px;
+    }
+}
+//------------/Contact-Form--------------
+
+
+//-----------------Home------------------
+.home {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul {
+        > li {
+            > a {
+                color: $lighter-gray;
+
+                &:hover, &:active, &:focus {
+                    color: $light-gray;
+                }
+            }
+        }
+    }
+}
+
+
+//----------------/Home------------------
+
+//--------News and Project Lists---------
+
+.overview {
+    a {
+        color: $lighter-gray;
+
+        &:hover, &:active, &:focus {
+            color: $light-gray;
+        }
+    }
+}
+
+
+
+//--------/News and Project Lists--------
+
+//-----------------Project---------------
+.project {
+    img {
+        display: block;
+        width: 40%;
+        margin: 0 auto 10px auto;
+    }
+
+    span.Completed {
+        color: $green;
+    }
+
+    span.Other {
+        color: $lighter-gray;
+    }
+}
+
+//----------------/Project---------------
+//------------------News-----------------
+.news {
+    img {
+        display: block;
+        width: 40%;
+        margin: 0 auto 10px auto;
+    }
+}
+//-----------------/News-----------------
+
+//----------------About Us---------------
+.about-us {
+    img {
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+
+    .vision, .people, .skills {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+
+//----------------/About Us---------------
