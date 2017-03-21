@@ -4,7 +4,7 @@
 
 ## Installation
 * Make sure that you have MS SQL server installed - [Download](https://www.microsoft.com/en-us/download/details.aspx?id=29062) (select ENU\x64\SQLEXPR_x64_ENU.exe, ENU\x64\SqlLocalDB.MSI and ENU\x64\SQLManagementStudio_x64_ENU.exe)
-* Restore the database in SQL Server Management Studio
+* Restore the `database` file in SQL Server Management Studio
 * Open `Umrako.sln`
 * Web.config - set the connection string to use your own server `Server=*your-pc*\SQLEXPRESS;`
 * Web.config - set you your own SMTP `<network host="smtp.gmail.com" port="587" enableSsl="true" defaultCredentials="false" userName="test@gmail.com" password="test"/>`
