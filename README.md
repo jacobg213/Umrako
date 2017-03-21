@@ -7,7 +7,7 @@
 * Restore the `database` file in SQL Server Management Studio
 * Open `Umrako.sln`
 * Web.config - set the connection string to use your own server `Server=*your-pc*\SQLEXPRESS;`
-* Web.config - set you your own SMTP `<network host="smtp.gmail.com" port="587" enableSsl="true" defaultCredentials="false" userName="test@gmail.com" password="test"/>`
+* Web.config - use your own SMTP settings `<network host="smtp.gmail.com" port="587" enableSsl="true" defaultCredentials="false" userName="test@gmail.com" password="test"/>`
 * Run the solution
 * In case of any problems - delete `.vs/config/` folder and change the port on which the project is running (in Visual Studio - Project->Umrako properties, Web tab
 
