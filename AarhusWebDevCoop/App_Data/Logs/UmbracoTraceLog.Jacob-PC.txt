@@ -198,3 +198,801 @@ Nazwa parametru: name
  2017-03-21 21:06:14,930 [P18112/D2/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 12ms)
  2017-03-21 21:06:14,970 [P18112/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
  2017-03-21 21:06:14,974 [P18112/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 4ms)
+ 2017-03-23 15:52:09,557 [P10428/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.9 application starting on JACOB-PC
+ 2017-03-23 15:52:09,570 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-23 15:52:09,577 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 6ms)
+ 2017-03-23 15:52:09,611 [P10428/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-23 15:52:09,611 [P10428/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-23 15:52:09,615 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-23 15:52:09,883 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 268ms)
+ 2017-03-23 15:52:09,891 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-23 15:52:09,897 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+ 2017-03-23 15:52:09,897 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-23 15:52:09,904 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 7ms)
+ 2017-03-23 15:52:09,914 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-23 15:52:09,919 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+ 2017-03-23 15:52:09,919 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-23 15:52:09,922 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 3ms)
+ 2017-03-23 15:52:09,947 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-23 15:52:09,953 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 6ms)
+ 2017-03-23 15:52:09,953 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-23 15:52:09,959 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 5ms)
+ 2017-03-23 15:52:10,560 [P10428/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-23 15:52:10,712 [P10428/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-23 15:52:10,723 [P10428/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-23 15:52:10,771 [P10428/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-23 15:52:10,788 [P10428/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1276ms)
+ 2017-03-23 15:52:10,789 [P10428/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-03-23 15:52:10,838 [P10428/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - member, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-03-23 15:52:10,935 [P10428/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - member, took 97ms, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-03-23 15:52:10,935 [P10428/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2017-03-23 15:52:10,946 [P10428/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - content, Provider=InternalIndexer, NodeId=-1
+ 2017-03-23 15:52:11,281 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-23 15:52:11,288 [P10428/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 6ms)
+ 2017-03-23 15:52:11,386 [P10428/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - content, took 440ms, Provider=InternalIndexer, NodeId=-1
+ 2017-03-23 15:52:11,386 [P10428/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - media, Provider=InternalIndexer, NodeId=-1
+ 2017-03-23 15:52:11,471 [P10428/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - media, took 85ms, Provider=InternalIndexer, NodeId=-1
+ 2017-03-23 15:52:11,471 [P10428/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-23 15:52:11,479 [P10428/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - content, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-23 15:52:11,492 [P10428/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - content, took 12ms, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-23 15:52:11,492 [P10428/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - media, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-23 15:52:11,494 [P10428/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - media, took 2ms, Provider=ExternalIndexer, NodeId=-1
+ 2017-03-23 15:52:11,597 [P10428/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:33037/umbraco (UmbracoModule request)
+ 2017-03-23 15:52:11,778 [P10428/D2/T7] INFO  umbraco.content - Load Xml from file...
+ 2017-03-23 15:52:11,780 [P10428/D2/T7] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-23 15:52:14,852 [P10428/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-23 15:52:14,859 [P10428/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 7ms)
+ 2017-03-23 15:52:33,666 [P10428/D2/T13] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-23 15:53:11,795 [P10428/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-22 15:53:11
+ 2017-03-23 19:59:52,710 [P14636/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.9 application starting on JACOB-PC
+ 2017-03-23 19:59:52,721 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-23 19:59:52,737 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 16ms)
+ 2017-03-23 19:59:52,784 [P14636/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-23 19:59:52,784 [P14636/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-23 19:59:52,788 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-23 19:59:53,055 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 267ms)
+ 2017-03-23 19:59:53,067 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-23 19:59:53,074 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+ 2017-03-23 19:59:53,074 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-23 19:59:53,083 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 9ms)
+ 2017-03-23 19:59:53,093 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-23 19:59:53,100 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+ 2017-03-23 19:59:53,100 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-23 19:59:53,107 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 6ms)
+ 2017-03-23 19:59:53,138 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-23 19:59:53,148 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 9ms)
+ 2017-03-23 19:59:53,148 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-23 19:59:53,151 [P14636/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 3ms)
+ 2017-03-23 19:59:53,837 [P14636/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-23 19:59:53,968 [P14636/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-23 19:59:53,981 [P14636/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-23 19:59:54,019 [P14636/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-23 19:59:54,038 [P14636/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1381ms)
+ 2017-03-23 19:59:54,128 [P14636/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:33037/umbraco (UmbracoModule request)
+ 2017-03-23 19:59:54,319 [P14636/D2/T7] INFO  umbraco.content - Load Xml from file...
+ 2017-03-23 19:59:54,320 [P14636/D2/T7] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-23 19:59:54,666 [P14636/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-23 19:59:54,682 [P14636/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 16ms)
+ 2017-03-23 19:59:59,400 [P14636/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-23 19:59:59,408 [P14636/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 8ms)
+ 2017-03-23 20:00:02,698 [P14636/D2/T17] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-23 20:00:12,590 [P14636/D2/T18] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-23 20:00:18,917 [P14636/D2/T15] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username test@test.com from IP address ::1
+ 2017-03-23 20:00:18,918 [P14636/D2/T15] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: test@test.com logged in from IP address ::1
+ 2017-03-23 20:00:18,995 [P14636/D2/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:00:19,002 [P14636/D2/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 6ms)
+ 2017-03-23 20:00:19,050 [P14636/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-03-23 20:00:19,062 [P14636/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 11ms)
+ 2017-03-23 20:00:19,160 [P14636/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:00:19,160 [P14636/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:00:19,163 [P14636/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-23 20:00:19,177 [P14636/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 14ms)
+ 2017-03-23 20:00:19,178 [P14636/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-23 20:00:19,189 [P14636/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 11ms)
+ 2017-03-23 20:00:23,926 [P14636/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.HealthCheck.HealthCheck
+ 2017-03-23 20:00:23,936 [P14636/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.HealthCheck.HealthCheck, found 0 (took 9ms)
+ 2017-03-23 20:00:28,277 [P14636/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-23 20:00:28,277 [P14636/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2017-03-23 20:00:54,364 [P14636/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-22 20:00:54
+ 2017-03-23 20:01:24,894 [P14636/D2/T30] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:01:24,894 [P14636/D2/T30] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:01:25,143 [P14636/D2/T30] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1117, Members
+ 2017-03-23 20:02:02,242 [P14636/D2/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1078' has been published.
+ 2017-03-23 20:02:02,304 [P14636/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-03-23 20:02:02,314 [P14636/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 10ms)
+ 2017-03-23 20:02:06,384 [P14636/D2/T13] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:02:06,398 [P14636/D2/T13] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:04:05,075 [P14636/D2/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1078' has been published.
+ 2017-03-23 20:04:09,132 [P14636/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:04:09,153 [P14636/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:06:24,077 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,078 [P14636/D2/T63] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1078, Home Page
+ 2017-03-23 20:06:24,293 [P14636/D2/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:06:24,293 [P14636/D2/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:06:25,872 [P14636/D2/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-03-23 20:06:25,880 [P14636/D2/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 7ms)
+ 2017-03-23 20:06:29,408 [P14636/D2/T11] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1078' has been published.
+ 2017-03-23 20:06:33,454 [P14636/D2/T63] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:06:33,478 [P14636/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:06:53,747 [P14636/D2/T59] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:53,747 [P14636/D2/T59] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:53,747 [P14636/D2/T59] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:53,747 [P14636/D2/T59] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:53,747 [P14636/D2/T59] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:53,747 [P14636/D2/T59] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:53,747 [P14636/D2/T59] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:53,747 [P14636/D2/T59] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:53,814 [P14636/D2/T30] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:06:53,814 [P14636/D2/T30] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:06:54,015 [P14636/D2/T59] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:06:54,015 [P14636/D2/T59] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:06:58,985 [P14636/D2/T30] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:06:58,985 [P14636/D2/T30] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:06:59,118 [P14636/D2/T52] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:59,118 [P14636/D2/T52] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:59,118 [P14636/D2/T52] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:59,118 [P14636/D2/T52] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:59,118 [P14636/D2/T52] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:59,118 [P14636/D2/T52] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:59,118 [P14636/D2/T52] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:06:59,118 [P14636/D2/T52] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1079, News Overview
+ 2017-03-23 20:07:12,920 [P14636/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'News' with Id '1079' has been published.
+ 2017-03-23 20:07:14,520 [P14636/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:07:14,520 [P14636/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:07:16,981 [P14636/D2/T30] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:07:16,988 [P14636/D2/T30] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:07:20,280 [P14636/D2/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:07:20,280 [P14636/D2/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:07:20,344 [P14636/D2/T30] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1080, Projects Overview
+ 2017-03-23 20:07:20,344 [P14636/D2/T30] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1080, Projects Overview
+ 2017-03-23 20:07:20,345 [P14636/D2/T30] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1080, Projects Overview
+ 2017-03-23 20:07:20,345 [P14636/D2/T30] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1080, Projects Overview
+ 2017-03-23 20:07:20,345 [P14636/D2/T30] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1080, Projects Overview
+ 2017-03-23 20:07:20,345 [P14636/D2/T30] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1080, Projects Overview
+ 2017-03-23 20:07:20,456 [P14636/D2/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:07:20,456 [P14636/D2/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:07:27,360 [P14636/D2/T11] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1117, Members
+ 2017-03-23 20:09:18,244 [P14636/D2/T45] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:09:18,245 [P14636/D2/T45] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:12:29,732 [P14636/D2/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:12:29,732 [P14636/D2/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:17:50,647 [P14636/D2/T27] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:17:50,647 [P14636/D2/T27] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:21:16,317 [P14636/D2/T65] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.ArgumentException: Parametr jest nieprawidłowy.
+   w System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:21:22,779 [P14636/D2/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:21:22,779 [P14636/D2/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:21:24,884 [P14636/D2/T22] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.ArgumentException: Parametr jest nieprawidłowy.
+   w System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:21:43,429 [P14636/D2/T74] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.ArgumentException: Parametr jest nieprawidłowy.
+   w System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:22:51,711 [P14636/D2/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1138' has been published.
+ 2017-03-23 20:22:55,767 [P14636/D2/T15] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:22:55,781 [P14636/D2/T15] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:22:59,987 [P14636/D2/T15] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:23:35,423 [P14636/D2/T55] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:23:56,944 [P14636/D2/T55] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:24:08,881 [P14636/D2/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1138' has been published.
+ 2017-03-23 20:24:11,982 [P14636/D2/T62] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:24:11,982 [P14636/D2/T62] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,039 [P14636/D2/T26] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1138, About Us
+ 2017-03-23 20:24:12,344 [P14636/D2/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:24:12,344 [P14636/D2/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:24:12,979 [P14636/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:24:12,990 [P14636/D2/T26] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:24:33,399 [P14636/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1138' has been published.
+ 2017-03-23 20:24:37,422 [P14636/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:24:37,429 [P14636/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:24:48,175 [P14636/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'News 1' with Id '1081' has been published.
+ 2017-03-23 20:24:52,222 [P14636/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:24:52,228 [P14636/D2/T23] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:24:59,247 [P14636/D2/T37] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hello' with Id '1081' has been published.
+ 2017-03-23 20:25:03,274 [P14636/D2/T37] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:25:03,280 [P14636/D2/T37] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:25:12,103 [P14636/D2/T37] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Update' with Id '1082' has been published.
+ 2017-03-23 20:25:16,128 [P14636/D2/T37] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:25:16,134 [P14636/D2/T37] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:25:24,083 [P14636/D2/T37] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Work' with Id '1080' has been published.
+ 2017-03-23 20:25:28,100 [P14636/D2/T37] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:25:28,123 [P14636/D2/T37] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:25:31,545 [P14636/D2/T16] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Work' with Id '1080' has been published.
+ 2017-03-23 20:25:35,568 [P14636/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:25:35,581 [P14636/D2/T26] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:25:38,196 [P14636/D2/T55] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:25:47,089 [P14636/D2/T19] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:25:50,582 [P14636/D2/T29] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:25:50,582 [P14636/D2/T29] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:25:50,615 [P14636/D2/T19] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:25:50,615 [P14636/D2/T19] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:25:50,615 [P14636/D2/T19] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:25:50,615 [P14636/D2/T19] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:25:50,615 [P14636/D2/T19] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:25:50,615 [P14636/D2/T19] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:25:50,616 [P14636/D2/T19] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:25:50,836 [P14636/D2/T61] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:25:50,836 [P14636/D2/T61] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:25:57,931 [P14636/D2/T42] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:25:57,931 [P14636/D2/T42] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:25:57,970 [P14636/D2/T83] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:25:57,971 [P14636/D2/T83] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:25:57,971 [P14636/D2/T83] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:25:57,971 [P14636/D2/T83] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:25:57,971 [P14636/D2/T83] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:25:57,971 [P14636/D2/T83] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:25:57,971 [P14636/D2/T83] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:25:58,334 [P14636/D2/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:25:58,334 [P14636/D2/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:26:16,170 [P14636/D2/T83] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bacon' with Id '1083' has been published.
+ 2017-03-23 20:26:16,389 [P14636/D2/T23] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:26:20,190 [P14636/D2/T83] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:26:20,209 [P14636/D2/T83] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:26:49,227 [P14636/D2/T57] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:26:54,063 [P14636/D2/T57] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:26:57,682 [P14636/D2/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:26:57,682 [P14636/D2/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:26:57,737 [P14636/D2/T48] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1084, Project Item
+ 2017-03-23 20:26:57,737 [P14636/D2/T48] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1084, Project Item
+ 2017-03-23 20:26:57,737 [P14636/D2/T48] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1084, Project Item
+ 2017-03-23 20:26:57,737 [P14636/D2/T48] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1084, Project Item
+ 2017-03-23 20:26:57,738 [P14636/D2/T48] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1084, Project Item
+ 2017-03-23 20:26:57,738 [P14636/D2/T48] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1084, Project Item
+ 2017-03-23 20:26:57,738 [P14636/D2/T48] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1084, Project Item
+ 2017-03-23 20:26:57,738 [P14636/D2/T48] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1084, Project Item
+ 2017-03-23 20:26:57,738 [P14636/D2/T48] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1084, Project Item
+ 2017-03-23 20:26:57,738 [P14636/D2/T48] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1084, Project Item
+ 2017-03-23 20:26:57,887 [P14636/D2/T48] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:26:57,887 [P14636/D2/T48] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:27:18,200 [P14636/D2/T21] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ribeye' with Id '1085' has been published.
+ 2017-03-23 20:27:19,447 [P14636/D2/T64] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:27:22,240 [P14636/D2/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:27:22,250 [P14636/D2/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:27:45,942 [P14636/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Please leave' with Id '1112' has been published.
+ 2017-03-23 20:27:49,971 [P14636/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:27:49,985 [P14636/D2/T23] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:27:54,003 [P14636/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Please leave' with Id '1112' has been published.
+ 2017-03-23 20:27:56,455 [P14636/D2/T61] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1117, Members
+ 2017-03-23 20:27:58,050 [P14636/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:27:58,080 [P14636/D2/T34] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:28:30,069 [P14636/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Is lollolol.okmeadgfohisd' with Id '1142' has been published.
+ 2017-03-23 20:28:34,110 [P14636/D2/T86] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:28:34,138 [P14636/D2/T86] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:28:37,946 [P14636/D2/T86] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Is lollolol.okmeadgfohisd' with Id '1142' has been published.
+ 2017-03-23 20:28:41,971 [P14636/D2/T86] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:28:41,995 [P14636/D2/T86] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:28:52,628 [P14636/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Weird' with Id '1142' has been published.
+ 2017-03-23 20:28:56,643 [P14636/D2/T65] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:28:56,651 [P14636/D2/T65] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:29:13,580 [P14636/D2/T42] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:29:34,836 [P14636/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1078' has been published.
+ 2017-03-23 20:29:38,875 [P14636/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:29:38,885 [P14636/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:29:42,593 [P14636/D2/T42] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:29:51,872 [P14636/D2/T57] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:30:02,358 [P14636/D2/T42] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:30:06,397 [P14636/D2/T15] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:30:24,685 [P14636/D2/T23] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:30:34,289 [P14636/D2/T42] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:30:35,159 [P14636/D2/T23] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:30:59,520 [P14636/D2/T57] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:30:59,520 [P14636/D2/T57] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:30:59,987 [P14636/D2/T57] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:31:08,709 [P14636/D2/T60] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:31:12,945 [P14636/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1078' has been published.
+ 2017-03-23 20:31:16,994 [P14636/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:31:17,028 [P14636/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:31:36,504 [P14636/D2/T57] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:31:44,350 [P14636/D2/T23] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:32:00,114 [P14636/D2/T57] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:32:26,193 [P14636/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1078' has been published.
+ 2017-03-23 20:32:30,241 [P14636/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:32:30,257 [P14636/D2/T23] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:32:53,121 [P14636/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1078' has been published.
+ 2017-03-23 20:32:57,145 [P14636/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:32:57,151 [P14636/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:33:20,747 [P14636/D2/T35] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1117, Members
+ 2017-03-23 20:33:25,130 [P14636/D2/T17] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:33:37,558 [P14636/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bacon' with Id '1083' has been published.
+ 2017-03-23 20:33:38,422 [P14636/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:33:38,422 [P14636/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:33:38,468 [P14636/D2/T16] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:33:38,468 [P14636/D2/T16] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:33:38,468 [P14636/D2/T16] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:33:38,469 [P14636/D2/T16] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:33:38,469 [P14636/D2/T16] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:33:38,469 [P14636/D2/T16] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:33:38,469 [P14636/D2/T16] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:33:38,469 [P14636/D2/T16] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:33:38,469 [P14636/D2/T16] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6247.17495, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1083, Project Item
+ 2017-03-23 20:33:38,644 [P14636/D2/T65] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:33:38,644 [P14636/D2/T65] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:33:41,595 [P14636/D2/T16] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:33:41,628 [P14636/D2/T16] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:33:46,364 [P14636/D2/T16] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bacon' with Id '1083' has been published.
+ 2017-03-23 20:33:49,798 [P14636/D2/T16] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Please leave' with Id '1112' has been published.
+ 2017-03-23 20:33:53,830 [P14636/D2/T17] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:33:53,835 [P14636/D2/T17] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:33:55,366 [P14636/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-23 20:34:05,261 [P14636/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Weird' with Id '1142' has been unpublished.
+ 2017-03-23 20:34:09,281 [P14636/D2/T17] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:34:09,295 [P14636/D2/T17] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:35:56,583 [P14636/D2/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-03-23 20:35:56,583 [P14636/D2/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-03-23 20:35:57,250 [P14636/D2/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field max
+ 2017-03-23 20:36:05,763 [P14636/D2/T32] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field min
+ 2017-03-23 20:36:05,763 [P14636/D2/T32] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field step
+ 2017-03-23 20:36:05,763 [P14636/D2/T32] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field max
+ 2017-03-23 20:36:24,291 [P14636/D2/T24] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2017-03-23 20:36:24,291 [P14636/D2/T24] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2017-03-23 20:36:24,291 [P14636/D2/T24] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2017-03-23 20:36:29,422 [P14636/D2/T32] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2017-03-23 20:36:29,422 [P14636/D2/T32] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2017-03-23 20:36:29,422 [P14636/D2/T32] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2017-03-23 20:36:29,422 [P14636/D2/T32] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2017-03-23 20:36:37,106 [P14636/D2/T50] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:36:37,819 [P14636/D2/T32] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2017-03-23 20:36:42,112 [P14636/D2/T61] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2017-03-23 20:38:16,362 [P14636/D2/T61] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1144
+ 2017-03-23 20:38:16,382 [P14636/D2/T61] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1144
+ 2017-03-23 20:38:16,526 [P14636/D2/T61] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1144
+ 2017-03-23 20:38:16,536 [P14636/D2/T61] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1144
+ 2017-03-23 20:39:35,294 [P14636/D2/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1145
+ 2017-03-23 20:39:35,310 [P14636/D2/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1145
+ 2017-03-23 20:39:35,437 [P14636/D2/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1145
+ 2017-03-23 20:39:35,449 [P14636/D2/T89] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1145
+ 2017-03-23 20:39:41,971 [P14636/D2/T99] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:41,975 [P14636/D2/T101] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-23 20:39:41,991 [P14636/D2/T103] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:42,009 [P14636/D2/T104] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:42,009 [P14636/D2/T105] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:42,010 [P14636/D2/T102] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:42,010 [P14636/D2/T91] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:42,013 [P14636/D2/T103] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-23 20:39:45,114 [P14636/D2/T100] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:45,114 [P14636/D2/T99] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-23 20:39:45,123 [P14636/D2/T89] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:45,124 [P14636/D2/T72] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:45,125 [P14636/D2/T91] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:45,126 [P14636/D2/T100] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:45,127 [P14636/D2/T99] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:45,130 [P14636/D2/T44] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-23 20:39:50,807 [P14636/D2/T91] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:50,808 [P14636/D2/T100] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-23 20:39:50,824 [P14636/D2/T89] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:50,824 [P14636/D2/T103] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:50,825 [P14636/D2/T72] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:50,838 [P14636/D2/T72] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:39:50,838 [P14636/D2/T44] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-23 20:39:50,839 [P14636/D2/T102] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-23 20:40:24,314 [P14636/D2/T72] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1146
+ 2017-03-23 20:40:24,334 [P14636/D2/T72] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1146
+ 2017-03-23 20:40:24,427 [P14636/D2/T72] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1146
+ 2017-03-23 20:41:36,946 [P14636/D2/T7] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1147
+ 2017-03-23 20:41:36,963 [P14636/D2/T7] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1147
+ 2017-03-23 20:41:37,108 [P14636/D2/T7] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1147
+ 2017-03-23 20:41:37,123 [P14636/D2/T7] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1147
+ 2017-03-23 20:41:51,020 [P14636/D2/T97] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username jacob@example.com from IP address ::1
+ 2017-03-23 20:41:57,959 [P14636/D2/T83] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-03-23 20:44:58,070 [P14636/D2/T99] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bacon' with Id '1083' has been published.
+ 2017-03-23 20:45:02,128 [P14636/D2/T104] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:45:02,139 [P14636/D2/T104] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:45:07,169 [P14636/D2/T70] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:45:19,273 [P14636/D2/T82] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:46:17,195 [P14636/D2/T49] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:46:52,502 [P14636/D2/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-23 20:46:52,502 [P14636/D2/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-23 20:46:58,375 [P14636/D2/T102] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:47:04,274 [P14636/D2/T21] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bacon' with Id '1083' has been published.
+ 2017-03-23 20:47:08,313 [P14636/D2/T21] INFO  umbraco.content - Save Xml to file...
+ 2017-03-23 20:47:08,338 [P14636/D2/T21] INFO  umbraco.content - Saved Xml to file.
+ 2017-03-23 20:47:09,338 [P14636/D2/T102] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
+ 2017-03-23 20:47:12,682 [P14636/D2/T103] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Brak pamięci.
+   w System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   w System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   w System.Drawing.Graphics.DrawImageUnscaled(Image image, Int32 x, Int32 y)
+   w ImageProcessor.Common.Extensions.ImageExtensions.Copy(Image source, AnimationProcessMode animationProcessMode, PixelFormat format, Boolean preserveExifData)
+   w ImageProcessor.ImageFactory.Load(Stream stream)
+   w ImageProcessor.Web.HttpModules.ImageProcessingModule.<ProcessImageAsync>d__34.MoveNext()
+--- Koniec śladu stosu z poprzedniej lokalizacji, w której wystąpił wyjątek ---
+   w System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   w System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   w System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   w System.Web.HttpApplication.AsyncEventExecutionStep.OnAsyncEventCompletion(IAsyncResult ar)
