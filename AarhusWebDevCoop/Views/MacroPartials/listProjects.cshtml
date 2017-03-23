@@ -1,0 +1,67 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+    var selection = CurrentPage.Children.OrderBy("CreateDate desc");
+}
+@foreach (var item in selection)
+{
+    var isProtectedChild = umbraco.library.IsProtected(item.id, item.path);
+    var loginAccessChild = umbraco.library.IsProtected(item.id, item.path)
+    && umbraco.library.HasAccess(item.id, item.path);
+
+    if (!isProtectedChild || loginAccessChild)
+    {
+        if (Umbraco.GetPreValueAsString(item.projectStatus).Equals("Completed"))
+        {
+
+
+            <section class="section">
+                <div class="container">
+                    <div class="heading">
+                        <h1 class="title"><a href="@item.Url">@item.projectTitle</a></h1>
+                        <p>@Umbraco.Truncate(item.projectDescription, 500) <a href="@item.Url">Read More..</a></p>
+                    </div>
+                </div>
+            </section>
+            <hr />
+        }
+        else
+        {
+            var member = Members.GetCurrentLoginStatus().Username;
+            if (member != null)
+            {
+                var roles = System.Web.Security.Roles.GetRolesForUser(member);
+                if (roles.ToList().Contains("Active"))
+                {
+
+                    <section class="section">
+                        <div class="container">
+                            <div class="heading">
+                                <h1 class="title"><a href="@item.Url">@item.projectTitle</a></h1>
+                                <p>@Umbraco.Truncate(item.projectDescription, 500) <a href="@item.Url">Read More..</a></p>
+                            </div>
+                        </div>
+                    </section>
+                    <hr />
+                }
+                else
+                {
+                    if (roles.ToList().Contains("Guest"))
+                    {
+                        if (Umbraco.GetPreValueAsString(item.projectStatus).Equals("Initiated"))
+                        {
+                            <section class="section">
+                                <div class="container">
+                                    <div class="heading">
+                                        <h1 class="title"><a href="@item.Url">@item.projectTitle</a></h1>
+                                        <p>@Umbraco.Truncate(item.projectDescription, 500) <a href="@item.Url">Read More..</a></p>
+                                    </div>
+                                </div>
+                            </section>
+                            <hr />
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

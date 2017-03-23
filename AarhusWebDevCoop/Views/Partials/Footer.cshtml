@@ -2,8 +2,15 @@
 @{
     var homePage = CurrentPage.AncestorsOrSelf(1).First();
 }
-<footer>
-    <div class="col-xs-12">
-        <h5 class="center-text">@homePage.footer</h5>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            <p>
+               @homePage.footer
+            </p>
+           
+        </div>
     </div>
 </footer>

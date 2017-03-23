@@ -1,0 +1,18 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+    var selection = CurrentPage.Children.Where("Visible").OrderBy("CreateDate desc");
+}
+@foreach (var item in selection)
+{
+    
+        <section class="section">
+            <div class="container">
+                <div class="heading">
+                    <h1 class="title"><a href="@item.Url">@item.articleTitle</a></h1>
+                    <p>@Umbraco.Truncate(item.articleContent, 500) <a href="@item.Url">Read More..</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <hr />
+}

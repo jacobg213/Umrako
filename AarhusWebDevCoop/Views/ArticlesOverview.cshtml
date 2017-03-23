@@ -3,11 +3,20 @@
 @{
     Layout = "Master.cshtml";
 }
-<div class="overview">
-    <div class="col-xs-12">
-        <h1 class="center-text">@Umbraco.Field("articlesTitle")</h1>
-    </div>
-    <div class="col-xs-12">
-        @Umbraco.Field("articlesBodyText")
+
+<div class="column">
+    <div class="card">
+     
+        <div class="card-content">
+            <div class="media">
+                <div class="media-content">
+                    <p class="title is-4">@Umbraco.Field("articlesTitle")</p>
+                </div>
+            </div>
+
+            <div class="content">
+                @Umbraco.Field("articlesBodyText")
+            </div>
+        </div>
     </div>
 </div>

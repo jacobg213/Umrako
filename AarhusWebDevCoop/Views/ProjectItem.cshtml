@@ -3,20 +3,35 @@
 @{
     Layout = "Master.cshtml";
 }
-<div class="project">
-    <div class="col-xs-12">
-        <h1>@Umbraco.Field("projectTitle") <span class="@(Umbraco.GetPreValueAsString(CurrentPage.projectStatus).Equals("Completed") ? "Completed" : "Other")">(@Umbraco.GetPreValueAsString(CurrentPage.projectStatus))</span>
-        </h1>
-    </div>
-    <div class="col-xs-12">
-        @{
-            var mediaItem = Umbraco.Media(Umbraco.Field("projectImage").ToHtmlString());
-            var file = mediaItem.UmbracoFile;
-        }
-        <img src="@file" />
-    </div>
-    <div class="col-xs-12">
-        @Umbraco.Field("projectDescription")
+
+<div class="column is-10 is-offset-1">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+                @{
+                    var mediaItem = Umbraco.Media(Umbraco.Field("projectImage").ToHtmlString());
+                    var file = mediaItem.UmbracoFile;
+                }
+                <img src="@file" />
+            </figure>
+        </div>
+        <div class="card-content">
+            <div class="media">
+                <div class="media-left">
+                    <figure class="image is-48x48">
+                        <img src="@file" />
+                    </figure>
+                </div>
+                <div class="media-content">
+                    <p class="title is-4">John Smith</p>
+                    <p class="subtitle is-6">@Umbraco.Field("projectTitle")h</p>
+                </div>
+            </div>
+
+            <div class="content">
+                @Umbraco.Field("projectDescription")
+                <a class="@(Umbraco.GetPreValueAsString(CurrentPage.projectStatus).Equals("Completed") ? "Completed" : "Other")">(@Umbraco.GetPreValueAsString(CurrentPage.projectStatus))</a>
+            </div>
+        </div>
     </div>
 </div>
-@*@CurrentPage.GetProperty("projectStatus")*@

@@ -5,63 +5,77 @@
 @{
     Layout = "Master.cshtml";
 }
-<div class="col-xs-12">
-    <h1 class="center-text">Members</h1>
+<div class="column is-12">
+    <h1 class="title">
+        Active members
+    </h1>
 </div>
-<div class="col-xs-6">
+<div class="column is-6">
     <div class="row">
-        <div class="col-xs-12">
-            <h2 class="center-text">Active</h2>
-        </div>
-        <div class="col-xs-12">
+        <div class="column is-12">
             @foreach (var member in ApplicationContext.Current.Services.MemberService.GetMembersByGroup("Active"))
             {
-                <div class="row">
-                    <div class="col-xs-6">
-                        <p>
-                            @member.Name <br>
-                            @member.GetValue("address")<br>
-                            @member.GetValue("zip") @member.GetValue("city")<br>
-                            Email: @member.Email<br>
-                            Skills:
-                            @{
-                                String[] skills = member.GetValue("skills").ToString().Split(',');
-                                string skillString = string.Join(", ", from skill in skills
-                                                                       select umbraco.library.GetPreValueAsString(Convert.ToInt32(skill)));
-                            }
-                            @skillString
-                        </p>
-
-                    </div>
-                    <div class="col-xs-6 center-text">
-                        @if (member.GetValue("photo") != null)
-                {
-                    string image = member.GetValue<string>("photo");
-                    if (image != null)
-                    {
-                        var imageCrop = JsonConvert.DeserializeObject<ImageCropDataSet>(image);
-                        var imagePath = imageCrop.Src.GetCropUrl(width: 100);
-                                <img class="img-responsive" src="@imagePath " />
-                            }
-                        }
-                    </div>
-                </div>
+                <article class="media">
+                    <figure class="media-left">
+                        <p class="image is-64x64">
+                            @if (member.GetValue("photo") != null)
+                            {
+                                string image = member.GetValue<string>("photo");
+                                if (image != null)
+                                {
+                                    var imageCrop = JsonConvert.DeserializeObject<ImageCropDataSet>(image);
+                                    var imagePath = imageCrop.Src.GetCropUrl(width: 100);
+                                    <img class="img-responsive" src="@imagePath " />
                                 }
-        </div>
+                            }
+                        </p>
+                    </figure>
+                    <div class="media-content">
+                        <div class="content">
+                            <p>
+                                <strong>@member.Name</strong> <small>@member.GetValue("address")</small> <small>@member.GetValue("zip") @member.GetValue("city")</small>
+                                <br>
+                                Skills:
+                                @{
+                                    String[] skills = member.GetValue("skills").ToString().Split(',');
+                                    string skillString = string.Join(", ", from skill in skills
+                                                                           select umbraco.library.GetPreValueAsString(Convert.ToInt32(skill)));
+                                }
+                                @skillString
+                            
+                            </p>
+                        </div>
+                     
+                    </div>
+                   
+                </article>
+                                    }
     </div>
 </div>
-<div class="col-xs-6">
+    </div>
+<div class="column is-6">
     <div class="row">
-        <div class="col-xs-12">
-            <h2 class="center-text">Guests</h2>
+        <div class="column is-6">
+            <h2 class="subtitle">
+                Guests
+            </h2>
         </div>
-        <div class="col-xs-12">
-            @foreach (var member in ApplicationContext.Current.Services.MemberService.GetMembersByGroup("Guest"))
+        <div class="column is-6">
+            @foreach (var member_guest in ApplicationContext.Current.Services.MemberService.GetMembersByGroup("Guest"))
             {
-                <p class="center-text">
-                    @member.Name
-                </p>
 
+                <article class="media">
+                    <figure class="media-left">
+                       
+                    </figure>
+                    <div class="media-content">
+                        <div class="content">
+                            <p>
+                                <strong>@member_guest.Name</strong>
+                            </p>
+                        </div>
+                   </div>
+                </article>
             }
         </div>
     </div>

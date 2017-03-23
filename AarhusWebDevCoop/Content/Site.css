@@ -1,0 +1,47 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.dropdown{
+    position:relative;
+}
+
+.dropdown-menu{
+    display:none !important;
+       background: #f7f7f7;
+}
+.dropdown:hover .dropdown-menu{
+    display: block!important;
+    position: absolute;
+    width: 160px;
+    top: 90px;
+    text-align: left;
+    left:0;
+ 
+}
+
+
+.dropdown-menu li{
+    border-bottom: 1px solid #e2e2e2;
+    padding: 6px 10px;
+    width:100%;
+}
+
+.nav{
+      border-bottom: 1px solid #e2e2e2;
+      margin-bottom: 15px;
+}
