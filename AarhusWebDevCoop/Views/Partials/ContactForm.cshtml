@@ -18,10 +18,10 @@
                 </div>
                 <div class="field">
                     @Html.LabelFor(m => m.Email, new { @class = "label" })
-                    <div class="col-xs-9">
+                  
                         @Html.TextBoxFor(m => m.Email, new { @class = "input", placeholder = "Email address" })
                         @Html.ValidationMessageFor(m => m.Email, String.Empty, new { @class = "error" })
-                    </div>
+            
                 </div>
                 <div class="field">
                     @Html.LabelFor(m => m.Subject, new { @class = "label" })
