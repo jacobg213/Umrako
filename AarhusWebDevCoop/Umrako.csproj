@@ -881,11 +881,8 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\MacroPartials\articles.cshtml" />
-    <Content Include="Views\MacroPartials\listArticles.cshtml" />
     <Content Include="Views\MacroPartials\last_three_projects.cshtml" />
     <Content Include="Views\MacroPartials\projects.cshtml" />
-    <Content Include="Views\MacroPartials\listProjects.cshtml" />
-    <Content Include="Views\MacroPartials\top3CompletedProjects.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
