@@ -63,7 +63,7 @@
 
                                 if (!isProtectedChild || loginAccessChild)
                                 {
-                                    if ((Umbraco.GetPreValueAsString(itemChild.projectStatus).Equals("Completed") && !itemChild.umbracoNaviHide) || Umbraco.GetPreValueAsString(itemChild.projectStatus).Equals(""))
+                                    if ((Umbraco.GetPreValueAsString(itemChild.projectStatus).Equals("Done") && !itemChild.umbracoNaviHide) || Umbraco.GetPreValueAsString(itemChild.projectStatus).Equals(""))
                                     {
 
                                         <li><a href="@itemChild.Url">@itemChild.Name</a></li>
@@ -87,7 +87,7 @@
                                             {
                                                 if (roles.ToList().Contains("Guest"))
                                                 {
-                                                    if (Umbraco.GetPreValueAsString(itemChild.projectStatus).Equals("Initiated") && !itemChild.umbracoNaviHide)
+                                                    if (Umbraco.GetPreValueAsString(itemChild.projectStatus).Equals("Started") && !itemChild.umbracoNaviHide)
                                                     {
                                                         <li><a href="@itemChild.Url">@itemChild.Name</a></li>
                                                     }
@@ -131,17 +131,11 @@
             
 
             <span class="nav-item">
-                <a href="https://github.com/jacobg213/Umrako" class="button">
+                <a href="https://github.com/jacobg213/Umrako" class="button is-primary">
                     <span class="icon">
                         <i class="fa fa-github"></i>
                     </span>
-                    <span>Kuba's repo</span>
-                </a>
-                <a href="https://github.com/roszpun/Ubraco-assignment" class="button is-primary">
-                    <span class="icon">
-                        <i class="fa fa-github"></i>
-                    </span>
-                    <span>Daniel's repo</span>
+                    <span>Git repo</span>
                 </a>
             </span>
         </ul>

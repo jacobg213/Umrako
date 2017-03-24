@@ -332,6 +332,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\AarhusWebDevCoop.mdf" />
+    <Content Include="App_Data\AarhusWebDevCoop_log.ldf">
+      <DependentUpon>AarhusWebDevCoop.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-KH23ABJ.txt" />
     <Content Include="App_Data\NuGetBackup\20170217-122304\bin\AutoMapper.dll" />
     <Content Include="App_Data\NuGetBackup\20170217-122304\bin\AutoMapper.Net4.dll" />

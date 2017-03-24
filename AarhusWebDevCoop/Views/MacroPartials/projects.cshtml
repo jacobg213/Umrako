@@ -10,7 +10,7 @@
 
     if (!isProtectedChild || loginAccessChild)
     {
-        if (Umbraco.GetPreValueAsString(item.projectStatus).Equals("Completed"))
+        if (Umbraco.GetPreValueAsString(item.projectStatus).Equals("Done"))
         {
 
                 <h2>
@@ -40,7 +40,7 @@
                 {
                     if (roles.ToList().Contains("Guest"))
                     {
-                        if (Umbraco.GetPreValueAsString(item.projectStatus).Equals("Initiated"))
+                        if (Umbraco.GetPreValueAsString(item.projectStatus).Equals("Started"))
                         {
                                  <h2>
                                     <a href="@item.Url">@item.projectTitle</a>
