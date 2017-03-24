@@ -22,7 +22,7 @@ namespace AarhusWebDevCoop.Controllers
         {
             if (!ModelState.IsValid) { return CurrentUmbracoPage(); }
             MailMessage message = new MailMessage();
-            message.To.Add("mateuszkop@gmail.com");
+            message.To.Add("gilis.jakub@gmail.com");
             message.Subject = model.Subject;
             message.From = new MailAddress(model.Email, model.Name);
             message.Body = model.Message;
